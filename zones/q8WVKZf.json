@@ -23,7 +23,12 @@
       "objectType": "DATASET"
     }
   ],
-  "shared": [],
+  "shared": [
+    {
+      "objectId": "Orders_by_customer",
+      "objectType": "DATASET"
+    }
+  ],
   "versionTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
