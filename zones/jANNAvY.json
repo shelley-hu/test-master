@@ -1,7 +1,16 @@
 {
   "name": "Country-level reporting",
   "color": "#4B8021",
-  "items": [],
+  "items": [
+    {
+      "objectId": "Orders_by_Country_Category",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_Orders_by_Country_Category",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
