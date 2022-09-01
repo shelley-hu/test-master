@@ -68,7 +68,18 @@
     ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "Orders_enriched_prepared",
+        "rules": [
+          {
+            "targetProject": "TESTFLOWZONECOPY",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
@@ -218,7 +229,8 @@
         },
         "deploymentModifier": {}
       }
-    }
+    },
+    "dkuProperties": []
   },
   "name": "Haiku Starter for Administrator",
   "projectStatus": "Sandbox",
@@ -278,11 +290,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 140,
+    "versionNumber": 141,
     "lastModifiedBy": {
-      "login": "admin"
+      "login": "test1"
     },
-    "lastModifiedOn": 1649710070505
+    "lastModifiedOn": 1662035647927
   },
   "creationTag": {
     "versionNumber": 0,
