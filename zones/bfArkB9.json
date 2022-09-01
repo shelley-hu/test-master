@@ -2,7 +2,12 @@
   "name": "Experimental",
   "color": "#087ABF",
   "items": [],
-  "shared": [],
+  "shared": [
+    {
+      "objectId": "Orders_enriched_prepared",
+      "objectType": "DATASET"
+    }
+  ],
   "tags": [],
   "customFields": {},
   "checklists": {
