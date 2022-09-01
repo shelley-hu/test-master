@@ -1,14 +1,23 @@
 {
+  "authMethod": "PUBLIC",
+  "authRealm": {
+    "queryKeys": []
+  },
+  "checklists": {
+    "checklists": []
+  },
   "endpoints": [
     {
+      "enrichMapping": [],
+      "healthCheckQueries": [],
+      "id": "High_Revenue_Customers",
       "modelRef": "Clj0CRAY",
-      "useJava": true,
       "testQueries": [
         {
           "q": {
             "features": {
-              "pages_visited_avg": 4,
-              "age_first_order": 20
+              "age_first_order": 20,
+              "pages_visited_avg": 4
             }
           }
         },
@@ -27,18 +36,10 @@
           }
         }
       ],
-      "enrichMapping": [],
-      "healthCheckQueries": [],
-      "id": "High_Revenue_Customers",
-      "type": "STD_PREDICTION"
+      "type": "STD_PREDICTION",
+      "useJava": true
     }
   ],
   "publicAccess": true,
-  "authRealm": {
-    "queryKeys": []
-  },
-  "tags": [],
-  "checklists": {
-    "checklists": []
-  }
+  "tags": []
 }
