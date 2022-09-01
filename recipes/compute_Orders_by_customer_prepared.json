@@ -11,6 +11,9 @@
           "map": {
             "Orders_by_customer": {
               "repartition": 10
+            },
+            "TESTFLOWZONECOPY.Orders_by_customer": {
+              "repartition": 10
             }
           }
         },
@@ -54,7 +57,7 @@
     "main": {
       "items": [
         {
-          "ref": "TESTFLOWZONECOPY.Orders_by_customer",
+          "ref": "Orders_by_customer",
           "deps": []
         }
       ]
@@ -72,11 +75,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "test1"
     },
-    "lastModifiedOn": 1662037332966
+    "lastModifiedOn": 1662037587404
   },
   "creationTag": {
     "versionNumber": 0,
